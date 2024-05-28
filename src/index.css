@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-familly: "Karla";
+  font-style: "normal";
+  font-weight: "400";
+  src: url("./assets/Karla-VariableFont_wght.ttf");
+}

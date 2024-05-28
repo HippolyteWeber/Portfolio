@@ -1,0 +1,25 @@
+{
+  "data": [
+    {
+      "workshopId": 1,
+      "workshopName": "Wild Code Quizz",
+      "workshopImg": "/src/assets/Quizz.jpeg",
+      "workshopDesc": "Découvrez votre expertise en développement web avec notre site de quiz interactif. Testez vos connaissances sur HTML, CSS, JavaScript et bien plus encore !",
+      "workshopLink": "https://wild-code-quiz.vercel.app/"
+    },
+    {
+      "workshopId": 2,
+      "workshopName": "Space View",
+      "workshopImg": "/src/assets/Galaxie.jpeg",
+      "workshopDesc": "Explorez l'univers depuis chez vous avec notre galerie d'images spatiales, alimentée par l'API de la NASA. Admirez des photos spectaculaires de planètes, d'étoiles et de galaxies captivantes !",
+      "workshopLink": "https://copy-p2-wcs-client.vercel.app/"
+    },
+    {
+      "workshopId": 3,
+      "workshopName": "Tekken Lab",
+      "workshopImg": "/src/assets/tekken.jpeg",
+      "workshopDesc": "Découvrez les mouvements de tous les combattants de Tekken 8 grâce à notre site spécialisé, alimenté par notre API exclusive. Maîtrisez les techniques et combos des personnages pour devenir un expert du combat dans Tekken 8 !",
+      "workshopLink": "https://github.com/HippolyteWeber/Tekken-Lab"
+    }
+  ]
+}

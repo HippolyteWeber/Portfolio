@@ -10,16 +10,23 @@
     {
       "workshopId": 2,
       "workshopName": "Space View",
-      "workshopImg": "/src/assets/Galaxie.jpeg",
+      "workshopImg": "/src/assets/spaceView.jpeg",
       "workshopDesc": "Explorez l'univers depuis chez vous avec notre galerie d'images spatiales, alimentée par l'API de la NASA. Admirez des photos spectaculaires de planètes, d'étoiles et de galaxies captivantes !",
       "workshopLink": "https://copy-p2-wcs-client.vercel.app/"
     },
     {
       "workshopId": 3,
       "workshopName": "Tekken Lab",
-      "workshopImg": "/src/assets/tekken.jpeg",
+      "workshopImg": "/src/assets/tekken8tuto.jpeg",
       "workshopDesc": "Découvrez les mouvements de tous les combattants de Tekken 8 grâce à notre site spécialisé, alimenté par notre API exclusive. Maîtrisez les techniques et combos des personnages pour devenir un expert du combat dans Tekken 8 !",
       "workshopLink": "https://github.com/HippolyteWeber/Tekken-Lab"
+    },
+    {
+      "workshopId": 4,
+      "workshopName": "Code Nature",
+      "workshopImg": "/src/assets/_77712706-5cf3-4526-9c9d-fdff25240c1c.jpeg",
+      "workshopDesc": "Code Nature est un site web innovant créé en seulement 36 heures lors d'un hackathon qui vous propose de découvrir la biodiversité des parcs nationaux Français.",
+      "workshopLink": "https://protojam-psi.vercel.app/"
     }
   ]
 }

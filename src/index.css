@@ -8,3 +8,88 @@
   font-weight: "400";
   src: url("./assets/Karla-VariableFont_wght.ttf");
 }
+@layer utilities {
+  .pause {
+    animation-play-state: paused;
+  }
+  .link-underline {
+    border-bottom-width: 0;
+    background-image: linear-gradient(transparent, transparent),
+      linear-gradient(#ffc107, #ffc107);
+    background-size: 0 3px;
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 0.5s ease-in-out;
+  }
+
+  .link-underline-black {
+    background-image: linear-gradient(transparent, transparent),
+      linear-gradient(#ffc107, #ffc107);
+  }
+
+  .link-underline:hover {
+    background-size: 100% 3px;
+    background-position: 0 100%;
+  }
+}
+* {
+  * {
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+  }
+}
+.Background {
+  background-image: repeating-linear-gradient(
+      225deg,
+      rgba(208, 208, 208, 0.13) 0px,
+      rgba(208, 208, 208, 0.13) 43px,
+      rgba(195, 195, 195, 0.13) 43px,
+      rgba(195, 195, 195, 0.13) 85px,
+      rgba(41, 41, 41, 0.13) 85px,
+      rgba(41, 41, 41, 0.13) 109px,
+      rgba(88, 88, 88, 0.13) 109px,
+      rgba(88, 88, 88, 0.13) 129px,
+      rgba(24, 24, 24, 0.13) 129px,
+      rgba(24, 24, 24, 0.13) 139px,
+      rgba(92, 92, 92, 0.13) 139px,
+      rgba(92, 92, 92, 0.13) 179px,
+      rgba(37, 37, 37, 0.13) 179px,
+      rgba(37, 37, 37, 0.13) 219px
+    ),
+    repeating-linear-gradient(
+      225deg,
+      rgba(18, 18, 18, 0.13) 0px,
+      rgba(18, 18, 18, 0.13) 13px,
+      rgba(48, 48, 48, 0.13) 13px,
+      rgba(48, 48, 48, 0.13) 61px,
+      rgba(130, 130, 130, 0.13) 61px,
+      rgba(130, 130, 130, 0.13) 84px,
+      rgba(233, 233, 233, 0.13) 84px,
+      rgba(233, 233, 233, 0.13) 109px,
+      rgba(8, 8, 8, 0.13) 109px,
+      rgba(8, 8, 8, 0.13) 143px,
+      rgba(248, 248, 248, 0.13) 143px,
+      rgba(248, 248, 248, 0.13) 173px,
+      rgba(37, 37, 37, 0.13) 173px,
+      rgba(37, 37, 37, 0.13) 188px
+    ),
+    repeating-linear-gradient(
+      225deg,
+      rgba(3, 3, 3, 0.1) 0px,
+      rgba(3, 3, 3, 0.1) 134px,
+      rgba(82, 82, 82, 0.1) 134px,
+      rgba(82, 82, 82, 0.1) 282px,
+      rgba(220, 220, 220, 0.1) 282px,
+      rgba(220, 220, 220, 0.1) 389px,
+      rgba(173, 173, 173, 0.1) 389px,
+      rgba(173, 173, 173, 0.1) 458px,
+      rgba(109, 109, 109, 0.1) 458px,
+      rgba(109, 109, 109, 0.1) 516px,
+      rgba(240, 240, 240, 0.1) 516px,
+      rgba(240, 240, 240, 0.1) 656px,
+      rgba(99, 84, 84, 0.1) 656px,
+      rgba(99, 84, 84, 0.1) 722px
+    ),
+    linear-gradient(270deg, rgb(0, 0, 0), rgb(0, 0, 0));
+}

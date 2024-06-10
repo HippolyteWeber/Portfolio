@@ -1,6 +1,6 @@
 export default function Project({ workshop }) {
   return (
-    <div className="card card-compact h-[480px] w-96 shadow-xl bg-componentcol hover:border-greenovbtn border-4 border-bckcl hover:scale-125">
+    <div className="card card-compact h-[480px] md:w-96 gap-4 shadow-xl bg-componentcol hover:border-greenbtn border-2 border-bckcl hover:scale-110 text-textColor mt-10">
       <figure>
         <img className=" " src={workshop.workshopImg} alt="Shoes" />
       </figure>

@@ -4,7 +4,7 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     colors: {
-      greenbtn: "#FFC107",
+      greenbtn: "#ffc107",
       greenovbtn: "#333333",
       componentcol: "#0A0A0A",
       bckcl: "#000000",

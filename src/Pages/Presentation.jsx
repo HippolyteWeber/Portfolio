@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import resume from "../assets/CV_Hippolyte_Weber.pdf";
+import resume from "../../public/static/images/CV_Hippolyte_Weber.pdf";
 
 export default function Presentation() {
   return (
@@ -7,7 +7,7 @@ export default function Presentation() {
       <div className="flex flex-col items-center p-4 md:flex-row md:justify-between md:items-center ">
         <div className="p-4 md:px-16">
           <img
-            src="/src/assets/profil.jpeg"
+            src="../../public/static/images/profil.jpeg"
             className="w-40 rounded-lg flex-none pb-8 md:w-80"
           />
         </div>
@@ -51,7 +51,7 @@ export default function Presentation() {
       <div className="flex p-4 flex-col items-center md:flex-row-reverse md:justify-between  md:items-center ">
         <div className="p-4 md:px-16">
           <img
-            src="/src/assets/logo.svg"
+            src="../../public/static/images/logo.svg"
             className="w-40 rounded-lg flex-none pb-8 md:w-80"
           />
         </div>

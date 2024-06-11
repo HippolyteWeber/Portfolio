@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import resume from "../../public/static/images/CV_Hippolyte_Weber.pdf";
+import resume from "../../public/static/Images/CV_Hippolyte_Weber.pdf";
 
 export default function Presentation() {
   return (
@@ -7,7 +7,7 @@ export default function Presentation() {
       <div className="flex flex-col items-center p-4 md:flex-row md:justify-between md:items-center ">
         <div className="p-4 md:px-16">
           <img
-            src="../../public/static/images/profil.jpeg"
+            src="/public/static/Images/profil.jpeg"
             className="w-40 rounded-lg flex-none pb-8 md:w-80"
           />
         </div>

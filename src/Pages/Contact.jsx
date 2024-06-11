@@ -26,10 +26,7 @@ export default function Contact() {
               <span className="z-10">Linkedin</span>
             </div>
           </a>
-          <img
-            src="/public/static/images/icons8-github-500.png"
-            className="w-12"
-          />
+          <img src="/public/static/images/githubwhite.png" className="w-12" />
 
           <a
             href="https://github.com/HippolyteWeber"

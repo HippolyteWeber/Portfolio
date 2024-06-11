@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import resume from "../../public/static/Images/CV_Hippolyte_Weber.pdf";
+import resume from "../assets/CV_Hippolyte_Weber.pdf";
 
 export default function Presentation() {
   return (

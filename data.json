@@ -3,7 +3,7 @@
     {
       "workshopId": 1,
       "workshopName": "Wild Code Quizz",
-      "workshopImg": "./public/static/images/Quizz.jpeg",
+      "workshopImg": "/public/static/images/Quizz.jpeg",
       "workshopDesc": "Découvrez votre expertise en développement web avec notre site de quiz interactif. Testez vos connaissances sur HTML, CSS, JavaScript et bien plus encore !",
       "workshopLink": "https://wild-code-quiz.vercel.app/"
     },

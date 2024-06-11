@@ -9,7 +9,7 @@ export default function Contact() {
       <div className="mt-8">
         <ul className="pt-4 flex items-center flex-col p-10 text-center">
           <img
-            src="../../public/static/images/icons8-linkedin-100.png"
+            src="/public/static/images/icons8-linkedin-100.png"
             className="w-12"
           />
 
@@ -27,7 +27,7 @@ export default function Contact() {
             </div>
           </a>
           <img
-            src="../../public/static/images/githubwhite.png"
+            src="/public/static/images/icons8-github-500.png"
             className="w-12"
           />
 
@@ -45,10 +45,7 @@ export default function Contact() {
             </div>
           </a>
 
-          <img
-            src="../../public/static/images/mailwhite.png"
-            className="w-12"
-          />
+          <img src="/public/static/images/mailwhite.png" className="w-12" />
           <a
             onClick={handleClick}
             className=" w-24 m-6 bg-neutral-50 group relative inline-flex h-12 items-center justify-center overflow-hidden rounded-md border border-neutral-200 bg-white font-medium"

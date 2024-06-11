@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import Profil from "../../public/static/Images/Capture2.PNG";
+import Profil from "../assets/Capture2.PNG";
 export default function NavBar() {
   return (
     <div className="w-auto bg-componentcol md:flex md:items-center md:justify-between px-2 text-neutral-50">

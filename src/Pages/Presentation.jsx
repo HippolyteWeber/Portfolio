@@ -7,7 +7,7 @@ export default function Presentation() {
       <div className="flex flex-col items-center p-4 md:flex-row md:justify-between md:items-center ">
         <div className="p-4 md:px-16">
           <img
-            src="/public/static/Images/profil.jpeg"
+            src="/static/Images/profil.jpeg"
             className="w-40 rounded-lg flex-none pb-8 md:w-80"
           />
         </div>
@@ -51,7 +51,7 @@ export default function Presentation() {
       <div className="flex p-4 flex-col items-center md:flex-row-reverse md:justify-between  md:items-center ">
         <div className="p-4 md:px-16">
           <img
-            src="../../public/static/images/logo.svg"
+            src="/static/images/logo.svg"
             className="w-40 rounded-lg flex-none pb-8 md:w-80"
           />
         </div>

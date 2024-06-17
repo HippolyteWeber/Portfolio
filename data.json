@@ -28,5 +28,10 @@
       "workshopDesc": "Code Nature est un site web innovant créé en seulement 36 heures lors d'un hackathon qui vous propose de découvrir la biodiversité des parcs nationaux Français.",
       "workshopLink": "https://protojam-psi.vercel.app/"
     }
+  ],
+  "imgvarious": [
+    {
+      "pngNavbar": "/static/images/Capture2.PNG"
+    }
   ]
 }

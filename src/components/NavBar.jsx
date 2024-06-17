@@ -5,7 +5,7 @@ export default function NavBar() {
     <div className="w-auto bg-componentcol md:flex md:items-center md:justify-between px-2 text-neutral-50">
       <div className="rounded-full flex justify-center sm:justify-start">
         <img
-          src="../../public/static/images/Capture2.PNG"
+          src="/static/images/Capture2.PNG"
           className="w-24 mask mask-squircle "
         />
       </div>

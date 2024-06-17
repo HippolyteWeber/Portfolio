@@ -8,10 +8,7 @@ export default function Contact() {
     <div className="mt-20 flex justify-center items-center text-neutral-950">
       <div className="mt-8">
         <ul className="pt-4 flex items-center flex-col p-10 text-center">
-          <img
-            src="/public/static/images/icons8-linkedin-100.png"
-            className="w-12"
-          />
+          <img src="/static/images/icons8-linkedin-100.png" className="w-12" />
 
           <a
             href="https://www.linkedin.com/in/hippolyteweber/"
@@ -26,7 +23,7 @@ export default function Contact() {
               <span className="z-10">Linkedin</span>
             </div>
           </a>
-          <img src="/public/static/images/githubwhite.png" className="w-12" />
+          <img src="/static/images/githubwhite.png" className="w-12" />
 
           <a
             href="https://github.com/HippolyteWeber"
@@ -42,7 +39,7 @@ export default function Contact() {
             </div>
           </a>
 
-          <img src="/public/static/images/mailwhite.png" className="w-12" />
+          <img src="/static/images/mailwhite.png" className="w-12" />
           <a
             onClick={handleClick}
             className=" w-24 m-6 bg-neutral-50 group relative inline-flex h-12 items-center justify-center overflow-hidden rounded-md border border-neutral-200 bg-white font-medium"

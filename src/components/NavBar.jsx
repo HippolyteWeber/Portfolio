@@ -1,10 +1,13 @@
 import { Link } from "react-router-dom";
-import Profil from "../assets/Capture2.PNG";
+
 export default function NavBar() {
   return (
     <div className="w-auto bg-componentcol md:flex md:items-center md:justify-between px-2 text-neutral-50">
       <div className="rounded-full flex justify-center sm:justify-start">
-        <img src={Profil} className="w-24 mask mask-squircle " />
+        <img
+          src="../../public/static/images/Capture2.PNG"
+          className="w-24 mask mask-squircle "
+        />
       </div>
       <div className="flex flex-row justify-center md:flex md:justify-end md:menu-horizontal">
         <ul className="flex ">
